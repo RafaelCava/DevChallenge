@@ -45,11 +45,11 @@ div.menu nav > li > a {
 
 .container{
     padding:7%;
-    margin-bottom: 21px;
-    background-image: url('/AmazingGraph/assets/team.jpg');
+    margin-bottom: 20px;
+    background-image: url('/assets/team.jpg');
     background-size: 800px 500px;
     background-repeat: no-repeat;
-    background-position: 670px 150px;
+    background-position: 600px 130px;
 }
 
 div.texto-container{
@@ -107,9 +107,11 @@ div.texto-container a{
    }
    div.texto-container p{
        margin:10% auto;
+       font-size: 25px;
    }
 
    div.texto-container h1{
        margin-top: 200px;
+       font-size: 40px;
    }
 }
