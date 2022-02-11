@@ -2,4 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: ' Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+}
+.menu{
+    display: flex;
+    gap:30px;
+    margin: 45px 45px;
+    list-style: none;
+}
+.menu-lat{
+    font-size: 20px;
+    text-decoration: none;
+    color: gray;
+    
+}
+
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    color: orangered;
 }
