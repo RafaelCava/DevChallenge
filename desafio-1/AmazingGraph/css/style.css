@@ -5,7 +5,10 @@
     font-family: ' Roboto', sans-serif;
 }
 .page{
-  background-image: url('team.jpg');
+  background-image: url('../assets/team.jpg');
+  background-size: 50%;
+  background-position: right 150px;
+  background-repeat: no-repeat;
 }
 header{
     width: 100%;
