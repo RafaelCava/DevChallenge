@@ -4,6 +4,12 @@
     box-sizing: border-box;
     font-family: ' Roboto', sans-serif;
 }
+.page{
+  background-image: url('../assets/team.jpg');
+  background-size: 50%;
+  background-position: right 150px;
+  background-repeat: no-repeat;
+}
 header{
 	display: flex;
 	align-items: flex-start;
