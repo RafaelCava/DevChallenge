@@ -2,7 +2,7 @@ header{
 	display: flex;
 	align-items: flex-start;
 	background-color: #ffffff;
-    padding: 40px;
+    padding: 30px;
 }
 
 header > a{
