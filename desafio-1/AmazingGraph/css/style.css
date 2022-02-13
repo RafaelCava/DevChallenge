@@ -89,6 +89,7 @@ body{
     body{
         background-size: 300px;
         background-position: center 120px;
+        overflow-x: hidden;
     }
     .menu{
         display: none;
