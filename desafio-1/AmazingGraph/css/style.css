@@ -43,9 +43,14 @@ main{
 }
 .conteudo{
     width: 50%;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 5%;
     gap: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .conteudo h1{
     color: gray;
