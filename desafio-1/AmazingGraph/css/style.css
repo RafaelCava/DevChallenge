@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ' Roboto', sans-serif;
+}
+.page{
+  background-image: url('../assets/team.jpg');
+  background-size: 50%;
+  background-position: right 150px;
+  background-repeat: no-repeat;
+}
+header{
+	display: flex;
+	align-items: flex-start;
+	background-color: #ffffff;
+    padding: 40px;
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    color: rgb(221, 150, 17);
+    text-decoration: none;
+}
+.menu{
+	list-style: none;	
+	display: flex;
+    padding: 8px 20px;
+	justify-content: flex-end;
+	width: 100%;
+    gap: 30px;
+    font-size: 20px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+}
+.conteudo{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo h1{
+    color: gray;
+    font-size: 450%;
+}
+.conteudo h2{
+    color: gray;
+   margin-top: 25px;
+    width: 70%;   
+    font-size: 150%;
+}
+.start{
+    width: 40%;
+    font-size: 25px;
+    margin-top: 6%;
+    padding: 17px 10px; 
+    background-color: rgb(221, 150, 17);
+    color: #fff; 
+    cursor: pointer; 
+    border-radius: 5px 5px 5px 5px;
+    border:none;
+}
+@media screen and (min-width: 900px) {
+    .cabecalhoMenuLat{
+        display: none;
+    }
+    .menu-lateral{
+        display: none;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .menu{
+        display: none;
+    }
+    .page{
+        background-image: url('../assets/team.jpg');
+        background-size: 80%;
+        background-position: center 100px;
+        background-repeat: no-repeat;
+    
+    }
+    .cabecalho{
+        display: flex;
+        text-decoration: none;
+        background-color: white;
+        justify-content: space-between;
+        padding: 8px 16px;
+    }
+    .logo{
+        text-decoration: none;
+        list-style: none;
+        color:rgb(221, 150, 17);
+        font-size: 30px;
+    }
+    .cabecalhoMenuLat{
+      border: none;
+      background-color: white;
+      
+    }
+    .cabecalhoMenuLat::before{
+        font-size: 24px;
+    }
+    .menu-lateral{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: gray;
+        width: 40vw;
+        right: -100vh;
+        height: 100vh;
+        position: absolute;
+    }
+    .menu-lateral__link{
+        height: 64px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+    .menu-lateral--ativo{
+        right: 0;
+        transition: right .25s;
+    }
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 60%;
+    }
+    .conteudo h1{
+        color: gray;
+        font-size: 40px;
+    }
+    .conteudo h2{
+        color: gray;
+        margin-top: 25px;
+        width: 100%;   
+        font-size: 20px;
+    }
+    .start{
+        width: 60%;
+        font-size: 25px;
+        margin-top: 6%;
+        padding: 10px 10px; 
+        background-color: rgb(221, 150, 17);
+        color: #fff; 
+        cursor: pointer; 
+        border-radius: 5px 5px 5px 5px;
+        border:none;
+    }
+    
+}
